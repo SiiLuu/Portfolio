@@ -50,7 +50,7 @@ const Work = () => {
             animated ? "translate-y-0" : styleTranslate
           } ${transition(1000)}`}
         >
-          Prev
+          Précédent
         </button>
         <button
           onClick={nextPro}
@@ -58,7 +58,7 @@ const Work = () => {
             animated ? "translate-y-0" : styleTranslate
           } ${transition(1000)}`}
         >
-          Next
+          Suivant
         </button>
       </div>
     </div>
@@ -78,7 +78,7 @@ const Project = ({ id, slider, slide }) => {
         effect="blur"
         src={content.work.cards[id].img}
         alt="phone prototype"
-        className="m-10 xll:ml-56 lg:ml-24 transtion duration-2000 ease-in-out z-10 w-4/5"
+        className="m-10 xll:ml-56 lg:ml-24 transtion duration-2000 ease-in-out z-10 xll:w-3/5 w-4/5"
       />
       <div
         className="transtion duration-2000 ease-in-out p-10 max-w-xl lg:max-w-3xl rounded-lg hidden md:block"
